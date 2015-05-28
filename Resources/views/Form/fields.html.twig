@@ -1,0 +1,14 @@
+{% block input_boxes_widget %}
+    {% spaceless %}
+        <div class="input-boxes">
+            {% for form_part in form %}
+                {% for child in form_part %}
+                    {% for sub_child in child %}
+                        {{ form_widget(sub_child) }}
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+            <a href="" class="clear-input-boxes">clear</a>
+        </div>
+    {% endspaceless %}
+{% endblock input_boxes_widget %}

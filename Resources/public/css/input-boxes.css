@@ -1,0 +1,11 @@
+.input-boxes {
+  margin-left: -4px;
+}
+.input-boxes .form-control {
+  display: inline-block;
+  width: 42px;
+  margin: 0px 4px;
+}
+.input-boxes .form-control:hover {
+  cursor: pointer;
+}

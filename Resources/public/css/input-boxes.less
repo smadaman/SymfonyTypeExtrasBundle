@@ -1,0 +1,14 @@
+.input-boxes {
+  @size: 4px;
+  margin-left: -@size;
+
+  .form-control {
+    display: inline-block;
+    width: 42px;
+    margin: 0px @size;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

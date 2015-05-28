@@ -1,0 +1,9 @@
+{
+    "name": "smada/symfony-type-extras-bundle",
+    "description": "Extra Symfony Form Input Types",
+    "autoload": {
+        "psr-4" : {
+            "Smada\\SymfonyTypeExtrasBundle\\" : ""
+        }
+    }
+}
